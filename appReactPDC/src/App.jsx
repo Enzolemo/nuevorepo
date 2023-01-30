@@ -2,10 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import Menu from './componentes/Menu/Menu'
-import Titulo from './componentes/Titulo/Titulo'
+import ComponenteContenedor from './componentes/ComponenteContainer/ComponenteContainer'
 
 
-
+//Existen dos tipos de componentes: 1ro FUNCIONALES/PRESENTACION: muestran cosas,; y el 2do Contenedores: son los que contienen
 
 
 function App() {
@@ -14,17 +14,12 @@ function App() {
   return (
     <>
       <Menu />
-      <Titulo titulo='Soy titulo de App' subtitulo='Soy subtitulo de App' />
-    
+      
+      <ComponenteContenedor saludo ='Hola soy componente container'/>
 
-  
+      
 
-    < section >
-  <Titulo titulo='Soy titulo de Form' subtitulo='Soy subtitulo de Form'/>
-  <form>
-    <input type="text" placeholder='Ingrese su nombre'/>
-  </form>
-</section >
+   
 
 
 </>
