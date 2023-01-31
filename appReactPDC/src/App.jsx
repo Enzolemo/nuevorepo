@@ -13,18 +13,22 @@ function App() {
 
   return (
     <>
-      <Menu />
+
+      {/* Aca anido menu dentro de componente contenedor. entonces ahora menu es el children de componente contenedor; se podria decir que menu ahora es PROP de componente contenedor, en un prop llamado CHILDREN
       
-      <ComponenteContenedor saludo ='Hola soy componente container'/>
+      si paso solo un dato es un objeto (children) si paso mas de uno se hace un array de objetos, tambien llamado children*/}
 
-      
+      <ComponenteContenedor saludo='Hola soy componente container'>
 
-   
+        <Menu />
 
-
-</>
+      </ComponenteContenedor>
+    </>
   )
 }
+
+
+
 
 
 
