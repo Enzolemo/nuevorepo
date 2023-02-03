@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Menu from './componentes/Menu/Menu'
 import ComponenteContenedor from './componentes/ComponenteContainer/ComponenteContainer'
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 
 
 //Existen dos tipos de componentes: 1ro FUNCIONALES/PRESENTACION: muestran cosas,; y el 2do Contenedores: son los que contienen
